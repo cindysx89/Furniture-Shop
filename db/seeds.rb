@@ -8,9 +8,9 @@
 
 
 
-Product.create!(name: "sofa", category: "living room", price: "£400")
-Product.create!(name: "tv stand", category: "living room", price: "£100")
-Product.create!(name: "coffee table", category: "living room", price: "£200")
+Product.create!(name: "sofa", category: "living room", price: "£400", manufacturer: "Ikea")
+Product.create!(name: "tv stand", category: "living room", price: "£100", manufacturer: "Ashley")
+Product.create!(name: "coffee table", category: "living room", price: "£200", manufacturer: "Ikea")
 
 Manufacturer.create!(name: "Ikea")
 Manufacturer.create!(name: "Ashley")
